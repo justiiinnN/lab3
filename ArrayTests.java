@@ -23,8 +23,8 @@ public class ArrayTests {
   }
   @Test 
   public void testReversed1(){
-    int[] input1 = {3,4,5,6}; 
-    assertArrayEquals(new int[] {6,5,4,3}, ArrayExamples.reversed(input1));
+    int[] input1 = { 3 , 4 , 5 , 6 }; 
+    assertArrayEquals(new int[] { 6 , 5 , 4 , 3 }, ArrayExamples.reversed(input1));
   }
   @Test 
   public void testaverageWithoutLowest(){
